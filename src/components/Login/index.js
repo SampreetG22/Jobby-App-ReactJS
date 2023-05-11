@@ -85,6 +85,10 @@ class Login extends Component {
     const {showSubmitError, errorMsg} = this.state
     return (
       <div className="mainContainer">
+      <div className="sampleLoginCredentials">
+          <p style={{fontSize: '18px'}}>Username: rahul</p>
+          <p style={{fontSize: '18px'}}>Password: rahul@2021</p>
+        </div>
         <div className="login-form-container">
           <form className="form-container" onSubmit={this.submitForm}>
             <img
