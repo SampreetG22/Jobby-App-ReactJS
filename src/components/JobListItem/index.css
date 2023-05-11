@@ -1,0 +1,71 @@
+.jobListElement {
+  background-color: #202020;
+  list-style-type: none;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.subContainer1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+.companyLogoCSS {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+.titleAndRatingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 50px;
+}
+.roleCSS {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 500;
+}
+.starImage {
+  fill: orange;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.number {
+  margin: 0px;
+  font-size: 15px;
+}
+.jobDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.locationSymbol {
+  margin-right: 10px;
+}
+.detailsText {
+  margin-right: 10px;
+  font-size: 12px;
+}
+.salaryText {
+  font-size: 15px;
+}
+.descriptionTitle {
+  font-size: 15px;
+  font-weight: 500;
+}
+.description {
+  color: white;
+}
+.link {
+  text-decoration: none;
+}

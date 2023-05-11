@@ -1,0 +1,29 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.not-found-img {
+  width: 400px;
+}
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  min-height: 100vh;
+}
+.homeContainer3 {
+  width: 60%;
+  background-color: gray;
+  background-size: cover;
+  height: 100vh;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

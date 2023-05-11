@@ -1,0 +1,69 @@
+* {
+  color: white;
+}
+.jobListElement1 {
+  background-color: #202020;
+  list-style-type: none;
+  padding: 30px;
+  margin: 45px;
+  border-radius: 10px;
+  color: white;
+}
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.descriptionAndWebsiteContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.linkWeb {
+  color: blueviolet;
+  text-decoration: none;
+}
+.websiteContainer {
+  display: flex;
+  align-items: center;
+}
+.skillElement {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin: 0px 10px 40px 10px;
+}
+.skillImage {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+.lifeAtCompanyContainer {
+  display: flex;
+}
+.description {
+  width: 60%;
+  font-weight: normal;
+  margin-right: 30px;
+}
+.similarJobElement {
+  list-style-type: none;
+  margin: 0px;
+  margin-right: 22px;
+  margin-bottom: 22px;
+  width: 35%;
+}
+.similarJobListContainer {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similarJobContainer {
+  padding-left: 45px;
+}
+.linkCSS {
+  text-decoration: none;
+}
