@@ -9,6 +9,11 @@
   margin: auto;
   background-color: #202020;
 }
+.sampleLoginCredentials {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+}
 .mainContainer {
   background-color: black;
   display: flex;
